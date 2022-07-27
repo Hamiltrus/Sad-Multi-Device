@@ -1,4 +1,3 @@
-//By Papah-Chan
 
 import fs from 'fs'
 import fetch from 'node-fetch'
@@ -45,7 +44,7 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'simple bot esm',
+					description: 'gw tau lu jomblo makanya main bot',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
 					sourceUrl: "https://github.com/FahriAdison",					
@@ -54,10 +53,10 @@ handler.all = async function (m) {
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/bot_whangsaf",
+            mediaUrl: "https://Instagram.ckm",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/bot_whangsaf", 
-            title: 'Simple Bot Esm',
+            description: "https://Instagram.com/", 
+            title: 'kang jones',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
